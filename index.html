@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon_io/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/favicon_io/favicon.ico"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicon_io/apple-touch-icon.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/assets/favicon_io/android-chrome-192x192.png"
+    />
+
+    <link rel="manifest" href="/assets/favicon_io/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#4f46e5" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicon_io/mstile-150x150.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sreehari Jayaraj | Product Engineer</title>
+    <style>
+      :root {
+        --bg-color: #ffffff;
+        --text-color: #111111;
+        --accent-color: #4f46e5;
+        --secondary-color: #666666;
+        --hover-color: #6366f1;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        background: var(--bg-color);
+        color: var(--text-color);
+        line-height: 1.5;
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 650px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 5rem 0;
+      }
+
+      .header {
+        margin-bottom: 2.5rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        color: var(--secondary-color);
+      }
+
+      .title {
+        font-size: 1.2rem;
+        color: var(--secondary-color);
+        margin-bottom: 1rem;
+      }
+
+      section {
+        margin-bottom: 3rem;
+      }
+
+      .experience-item {
+        margin-bottom: 1.25rem;
+      }
+
+      .experience-title {
+        font-weight: 500;
+        font-size: 1.1rem;
+      }
+
+      .experience-place {
+        color: var(--accent-color);
+        text-decoration: none;
+      }
+
+      .contact {
+        margin-top: 2rem;
+      }
+
+      .contact a {
+        color: var(--accent-color);
+        text-decoration: none;
+        margin-right: 1.5rem;
+        transition: color 0.2s ease;
+      }
+
+      .contact a:hover {
+        color: var(--hover-color);
+      }
+
+      /* Simple fade-in animation */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      body {
+        animation: fadeIn 0.8s ease-out;
+      }
+
+      /* Responsive styles */
+      @media (max-width: 768px) {
+        .container {
+          padding: 3rem 0;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Sreehari Jayaraj</h1>
+        <div class="title">Product Engineer</div>
+      </header>
+
+      <section>
+        <h2>Experience</h2>
+        <div class="experience-item">
+          <div class="experience-title">
+            Product Engineer <span class="experience-place">@ Credhive</span>
+          </div>
+          <div>Currently building product from 0 to 1</div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-title">
+            Engineering Intern
+            <a class="experience-place" href="https://nocodb.com/">@ NocoDB</a>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-title">
+            Engineering Intern
+            <a class="experience-place" href="https://bigbinary.com/"
+              >@ Bigbinary</a
+            >
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-title">
+            Engineering Intern
+            <a class="experience-place" href="https://carestack.com/"
+              >@ Carestack</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>About</h2>
+        <p>
+          Frontend-leaning full stack engineer passionate about crafting
+          delightful user experiences with smooth motion and intuitive UI.
+        </p>
+      </section>
+
+      <section class="contact">
+        <h2>Connect</h2>
+        <div>
+          <a href="mailto:sreeharijayaraj03@gmail.com">Email</a>
+          <a href="https://github.com/SreehariJayaraj" target="_blank"
+            >GitHub</a
+          >
+          <a href="https://linkedin.com/in/sreeharijayaraj" target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://twitter.com/sreeharijayara2" target="_blank"
+            >Twitter</a
+          >
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
